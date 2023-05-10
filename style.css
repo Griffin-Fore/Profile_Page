@@ -1,0 +1,222 @@
+* {
+    padding:0px;
+    margin:0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+    #top-bar{
+        width:80%;
+        background-color: black;
+        height: 60px;
+        padding: 10px 10%;
+        color:white;
+        margin-bottom: 20px;
+    }
+        #top-bar-content {
+            margin-top:10px;
+            display:flex;
+            justify-content: space-between;
+        }
+        #profile {
+            font-size: 40px;
+        }
+            .top-bar-content-text {
+                display:flex;
+                align-items: center;
+            }
+            
+            .top-bar-text {
+                margin-left: 20px;
+                margin-right:20px;
+            }
+            .sign-out-button {
+                background-color:#17a2b8;
+                color:white;
+                padding:5px 10px;
+            }
+    #container{
+        padding: 0px 10%;
+        display:flex;
+        justify-content: center;
+    }
+    #main-content{
+        display:flex;
+        width:100%;
+    }
+
+        .column1{
+            flex:3;
+        }
+            #user-card{
+                margin: 0px 20px 20px 0px;
+                height:400px;
+                position:relative;
+                top:-3px;
+            }
+                #blue-top {
+                    background-color:#17a2b8;
+                    height:73px;
+                    position:relative;
+                    top:3px;
+                }    
+                #user-card-box{
+                    height:330px;
+                    border:3px solid #cccccc;
+                    padding-left:30px;
+            }
+                #user-image{
+                    height: 70px;
+                    border-radius:50%;
+                    position:relative;
+                    top: -30px;
+                }
+                #jane-doe {
+                    font-size:30pt;
+                    position:relative;
+                    top:-15px;
+                }
+                #seattle-line {
+                    display: flex;
+                    align-items: center;
+                }
+                    #map-icon {
+                        height:20px;
+                    }
+                .bio-info {
+                    margin-top: 20px;
+                }
+                #edit-profile-line {
+                    margin-top: 20px;
+                    display:flex;
+                    align-items:center;
+                }
+                    #cog-icon {
+                        height:20px;
+                        margin-right:10px;
+                    }
+
+            #education-box {
+                margin: 20px 20px 0px 0px;
+                height: 200px;
+            }
+                #education-box-top-bar {
+                    color:white;
+                    background-color:#333333;
+                    height:50px;
+                    position:relative;
+                    top:3px;
+                    display:flex;
+                    align-items: center;
+                    padding-left:30px;
+                }
+                #education-box-main {
+                    border:3px solid #cccccc;
+                    height:150px;
+                    padding:20px 30px;
+                }
+                    #gray-text {
+                        color:gray;
+                        margin-bottom: 5px;;
+                    }
+
+        .column2 {
+            flex:2;
+        }
+
+        .profile-image {
+            height:50px;
+            border-radius:50%;
+        }
+        .request-icons {
+            height:40px;
+            margin:0px 20px;
+        }
+            #connection-requests-box {
+                height: 200px;
+                margin-bottom:20px;
+            }
+                #connection-requests-top-bar {
+                    color:white;
+                    background-color:#333333;
+                    height:50px;
+                    position:relative;
+                    top:3px;
+                    display:flex;
+                    align-items: center;
+                    padding-left: 30px;
+                }
+                    #connection-requests-icon {
+                        border-radius: 50%;
+                        color:black;
+                        height:35px;
+                        width:35px;
+                        background-color:lightgray;
+                        border: 2px solid #333333;
+                    }
+                #connection-requests-main{
+                    border:3px solid #cccccc;
+                    height:150px;
+                    padding-left:30px;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:space-around;
+                }
+                    .connection-requests-line {
+                        display:flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                        .connection-requests-line-left {
+                            display:flex;
+                            align-items:center;
+                        }
+                        .connection-requests-line-right {
+                            display:flex;
+                            align-items:center;
+                        }
+                        
+
+
+
+            #your-connections-box {
+                height:370px;
+            }
+                #your-connections-top-bar {
+                    color:white;
+                    background-color:#333333;
+                    height:50px;
+                    position:relative;
+                    top:3px;
+                    display:flex;
+                    align-items: center;
+                    padding-left:30px;
+                }
+                #connections-icon{
+                    border-radius: 50%;
+                    color:black;
+                    height:35px;
+                    width:60px;
+                    background-color:lightgrey;
+                    border:2px solid #333333;
+                }
+                #your-connections-main {
+                    border: 3px solid #cccccc;
+                    height:290px;
+                    padding-left:30px;
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                    .connection-line {
+                        display:flex;
+                        align-items:center;
+                    }
+                #connections-bottom-link {
+                    height:40px;
+                    border:3px solid #cccccc;
+                    position:relative;
+                    top:-3px;
+                    padding-left:30px;
+                    display:flex;
+                    align-items:center;
+                }
